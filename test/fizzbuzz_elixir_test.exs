@@ -1,8 +1,8 @@
-defmodule FizzbuzzElixirTest do
+defmodule FizzbuzzTest do
   use ExUnit.Case
-  doctest FizzbuzzElixir
+  doctest Fizzbuzz
 
   test "greets the world" do
-    assert FizzbuzzElixir.hello() == :world
+    assert Fizzbuzz.hello() == :world
   end
 end
